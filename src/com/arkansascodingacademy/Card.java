@@ -78,7 +78,7 @@ public class Card
     {
         boolean bingo = false;
 
-        if (bingoByColumn() || bingoByRow())
+        if (bingoByColumn() || bingoByRow() || bingoByDiagonal() || bingoByStamp())
         {
             bingo = true;
         }
@@ -125,6 +125,26 @@ public class Card
         }
 
         return bingo;
+    }
+
+    private boolean bingoByDiagonal()
+    {
+        boolean bingo = false;
+
+        //TODO Code this test
+
+        return bingo;
+
+    }
+
+    private boolean bingoByStamp()
+    {
+        boolean bingo = false;
+
+        //TODO Code this test
+
+        return bingo;
+
     }
 
     public static void main(String[] args)
